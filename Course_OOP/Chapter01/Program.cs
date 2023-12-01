@@ -26,6 +26,8 @@ namespace Chapter01
             Console.Write("Toa do yb:");
             y2 = Int32.Parse(Console.ReadLine());
 
+
+
             //tinh khoang cach
             kc = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             String data = String.Format("Khoang cach A({0},{1}) - B({2},{3}) = {4:0.00}",x1,y1,x2,y2,kc);
